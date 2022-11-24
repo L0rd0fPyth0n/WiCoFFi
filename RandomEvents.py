@@ -19,8 +19,3 @@ def pickATypeOfCoffe():
 def timeBetweenRequest():
     LAMBDA = .0021 
     return -1*((m.log(r.random()*(-1) + 1,2.1782))/LAMBDA)
-
-x = 0
-while x < 6:
-    print(timeBetweenRequest())
-    x = x + 1

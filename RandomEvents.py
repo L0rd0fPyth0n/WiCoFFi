@@ -24,7 +24,7 @@ def pickATypeOfCoffe():
         return 4
 
 def getSugarAmount():
-    r.choice(range(1,6))  
+    return r.choice(range(1,6))  
 
 ##
 ## continuous random variables

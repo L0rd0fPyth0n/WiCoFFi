@@ -27,6 +27,8 @@ while(i < 10000):
 
 plt.xlabel('x')
 plt.ylabel('f(x)')
+plt.xlim(0, 5)  
+plt.ylim(0, max(counts) + 1000)
 plt.plot(0,countOf0s/10000)
 #plt.plot(0,countOf0s)
 #plt.plot(0,countOf0s)

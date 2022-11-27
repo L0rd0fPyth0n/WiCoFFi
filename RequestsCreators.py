@@ -10,8 +10,8 @@ ou até desligarmos o programa"""
 class Order:
   def __init__(self, coffeType, sugar, water, howHot):
     self.coffeType = coffeType
-    self.sugarAmount = sugarAmount
-    self.waterAmount = waterAmount
+    self.sugar = sugar
+    self.water = water
     self.howHot = howHot
   
   def consume():

@@ -14,5 +14,8 @@ class Order:
     self.water = water
     self.howHot = howHot
   
-  def consume():
+  def __str__(self):
+    return self.coffeType + "with " + self.sugar + " gr of sugar and " + self.water + " mls of water"
+  #to keep working in
+  #def consume():
 

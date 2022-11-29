@@ -28,4 +28,4 @@ plt.xlim(0, 5)
 plt.ylim(0, max(arr) + 1000)
 plt.plot(range(0,4),arr)
 
-plt.show(
+plt.show()

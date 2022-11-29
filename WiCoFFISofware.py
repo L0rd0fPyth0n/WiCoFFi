@@ -18,7 +18,7 @@ pourVel = 2.5 #in ml/s #equal for coffe, milk and all other ingredients
 
 while(True):
     request = memBuffer.get(block=True, timeout=None) #bloqueia a thread (isto) ate haver pedidos de cafe
-    #view Tanks
+    #view Tanks, e se tem outros ingredientes
     print("Preparing" + request)
     waterTankCurrCapacity = waterTankCurrCapacity - request.water
     sugarTankCurrCapacity = sugarTankCurrCapacity - request.sugar

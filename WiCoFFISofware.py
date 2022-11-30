@@ -13,7 +13,7 @@ waterTankCurrCapacity = tankFullCapacity
 sugarTankFullCapacity = 20 #g
 sugarTankCurrCapacity = tankFullCapacity
 
-
+#Chocolate, espresso e leite quente
 pourVel = 2.5 #in ml/s #equal for coffe, milk and all other ingredients
 
 while(True):

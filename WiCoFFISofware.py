@@ -37,6 +37,7 @@ while(True):
     seeIfCanBeMade()
 
     
+    
     print("Preparing" + request)
     
     takingTheIngredients()

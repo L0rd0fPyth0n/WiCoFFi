@@ -10,7 +10,7 @@ arr = [0,0,0,0,0]
 
 while(i < 100000):
     n =  getSugarAmount()
-    arr[n ] = arr[n ] + 1
+    arr[n] = arr[n] + 1
     i = i + 1
 
 plt.xlabel('x')

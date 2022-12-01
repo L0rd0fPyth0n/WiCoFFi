@@ -33,9 +33,7 @@ while(True):
     request = memBuffer.get(block=True, timeout=None) #bloqueia a thread (isto) ate haver pedidos de cafe
     
     if not CanBeMade(request):
-        sleep()
-        waterTankCurrCapacity = tankFullCapacity
-        sugarTankCurrCapacity = tankFullCapacity
+        break
         
     print("Preparing " + request + "\n")
     
@@ -47,4 +45,6 @@ while(True):
     sleep(timeOfPour + heatingTime)
     
     print("An" + request + " ready!\nYou have " + MaxWaitTime + " to get it!\n")
-    sleep(MaxWaitTime)    
+    sleep(MaxWaitTime)
+
+print('The machine is now without ingridients')

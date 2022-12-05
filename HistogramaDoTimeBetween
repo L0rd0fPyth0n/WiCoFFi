@@ -34,15 +34,12 @@ while(count < 100000):
 
     count = count +1
 
-#Quantidade_de_cafes=[1,2,3,4,5,6,7,8,9,10]
-
-#temos de colocar uma implicação em que o café demora x tempo a ser feito
-
 plt.title('Tempo entre pedidos')
 plt.xlabel('Quantidade de cafés')
+
 #plt.ylabel('Tempo em minutos')
 #plt.hist(array,5, rwidth=0.7)
+
 plt.bar(range(len(array)),array)
-#plt.plot(4,array)
 plt.xlim(0, 10)
 plt.show()

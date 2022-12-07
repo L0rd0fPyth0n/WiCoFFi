@@ -1,5 +1,0 @@
-import time
-
-print("Print now")
-time.sleep(4.2)
-print("Printing after 4.2 seconds")
